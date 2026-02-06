@@ -1,0 +1,30 @@
+package com.dam.liststarwars.ui.screen.film
+
+data class FilmState(
+    var url: String = "",
+    var urlError: String = "",
+    var urlIsError: Boolean = false,
+    var title: String = "",
+    var titleError: String = "",
+    var titleIsError: Boolean = false,
+    var episodeId: Int = 0,
+    var episodeIdError: String = "",
+    var episodeIdIsError: Boolean = false,
+    var openingCrawl: String = "",
+    var director: String = "",
+    var directorError: String = "",
+    var directorIsError: Boolean = false,
+    var producer: String = "",
+    var producerError: String = "",
+    var producerIsError: Boolean = false,
+    var releaseDate: String = "",
+    var releaseDateError: String = "",
+    var releaseDateIsError: Boolean = false,
+    var starships: String = "",
+    var vehicles: String = "",
+    var hasVader: Boolean = false,
+    var created: String = "",
+    var edited: String = "",
+    var isEditMode: Boolean = false,
+    var isNameDuplicated: Boolean = false
+)
